@@ -2,9 +2,16 @@
   box-sizing: border-box;	
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
+  height: 100%;
   font-family: Verdana, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+  background-color: #ebebeb;
 }
 
 img {
@@ -12,8 +19,49 @@ img {
   height: auto;
 }
 
+h1 {
+  margin: 0;
+  font-family: "Krona One", sans-serif;
+}
+
 #container {
+  height: 100%;
   max-width: 600px;
   margin: auto;
+  padding-top: 80px;
   text-align: center;
+  background-color: white;
 }
+
+#box {
+  width: 300px;
+  height: 100px;
+  resize: none;
+  padding: 10px;
+  margin-top: 30px;
+
+  font-family: Verdana, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+}
+
+/* Buttons */
+
+button {
+  background-color: black;
+  border: none;
+  width: 160px;
+  padding: 10px;
+  margin-top: 20px;
+  display: inline;
+  cursor: pointer;
+
+  font-family: "Krona One", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+button:hover, button:active {
+  background-color: darkSlateBlue;
