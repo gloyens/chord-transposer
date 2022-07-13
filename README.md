@@ -1,4 +1,4 @@
-# Responsive Website
+# Chord Transposer
 ### Live Demo: https://gloyens.github.io/chord-transposer/
 
 ## What is this project?
